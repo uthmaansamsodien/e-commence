@@ -12,11 +12,12 @@ h1{
 h3{
     text-align:center;
 }
-.container{
+/* .container{
     height: 1500px;
-}
+} */
 .navbar{ 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(21, 21, 21);
 }
 
 .navbar .nav-link {
@@ -34,6 +35,10 @@ h3{
     color: white;
 
 }
+.nav-link:hover{
+    color: black;
+    cursor: pointer;
+}
 
 #logo_name {
     color: white;
@@ -41,4 +46,14 @@ h3{
 
 #logo_name:hover {
     color: black;
+}
+.card{
+    width: 20rem;
+}
+body{
+    color: grey;
+    background-color: grey;
+}
+.navbar-toggler-icon{
+    color: white !important;
 }
