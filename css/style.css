@@ -12,7 +12,9 @@ h1{
 h3{
     text-align:center;
 }
-
+.container{
+    height: 1500px;
+}
 .navbar{ 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
